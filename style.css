@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header-section{
+    background-color: #000;
+}
+.header-section ul{
+    text-align: center;
+}
+.header-section ul li{
+    display: inline-block;
+}
+.header-section ul li a{
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.header-section ul li a:hover{
+    color: rgb(16, 175, 238);
+}
+.header-section h1{
+    background-color: #dddddd;
+    color: #000;
+    padding: 15px;
+    text-align: center;
+}
+.banner-section{
+    background: url(./1509696751_shutterstock_604053512.jpg) no-repeat center center;
+    padding: 160px;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  
+}
+.banner-section::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.6);
+    z-index: -1;
+  
+}
+
+
+
+.first-list{
+    background-color: #000;
+    display: inline-block;
+    padding: 15px 15px 40px 15px;
+    transition: .5s;
+    border-radius: 10px;
+}
+.first-list ul{
+    list-style: none;
+}
+.first-list ul li{
+    padding: 10px;
+}
+.first-list ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;   
+}
+
+.first-list li::before {
+	content: "\f6af";
+	color: #fff;
+	font-family: "Font Awesome 5 Brands";
+	font-size: 21px;
+	margin-right: 14px;
+	display: inline-block;
+}
+
+.first-list:hover{
+    background: rgb(16, 241, 8);
+}
+
+
+.second-list{
+    background-color: #000;
+    display: inline-block;
+    padding: 15px 15px 40px 15px;
+    margin-right: 60px;
+    margin-left: 60px;
+    transition: .5s;
+    border-radius: 10px;
+}
+.second-list ul{
+    list-style: none;
+}
+.second-list ul li{
+    padding: 10px;
+}
+.second-list ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;   
+}
+.second-list li::before{
+	content: "\f5d2";
+	color: #fff;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+	font-size: 21px;
+	margin-right: 14px;
+	display: inline-block;
+}
+.second-list li::after{
+	content: "\f5d2";
+	color: #fff;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+	font-size: 21px;
+	margin-left: 14px;
+	display: inline-block;
+}
+.second-list:hover{
+    background-color: rgb(247, 3, 214);
+}
+
+
+
+.third-list{
+    background-color: #000;
+    display: inline-block;
+    padding: 15px 15px 40px 15px;
+    transition: .5s;
+    border-radius: 10px;
+}
+.third-list ul{
+    list-style: none;
+}
+.third-list ul li{
+    padding: 10px;
+}
+.third-list ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;   
+}
+.third-list li::before{
+	content: "\f2a2";
+	color: #fff;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+	font-size: 21px;
+	margin-right: 14px;
+	display: inline-block;
+}
+.third-list:hover{
+    background-color: rgb(245, 43, 17);
+}
+
+
+.footer-section{
+    background-color: #000;
+    padding: 20px 0 40px 0;
+
+}
+.footer-section ul{
+    text-align: center;
+}
+.footer-section ul li{
+    display: inline-block;
+}
+.footer-section ul li a{
+    color: #000;
+    background-color: #5ea5fa;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer-section ul li a:hover{
+    color: red;
+    background-color: yellow;
+}
+
+
+.footer-section h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
